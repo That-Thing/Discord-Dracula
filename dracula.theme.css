@@ -7,11 +7,12 @@
 * @website https://sen.cat/
 * @authorLink https://github.com/That-Thing
 */
-.theme-dark {
+:root, .theme-dark, .theme-light {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #f8f8f2;
     --text-muted: #C8C8C8;
+    --input-background: #2b2d3b;
     /*--text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);*/
     --text-link: #ff79c6;
     --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
@@ -81,6 +82,8 @@
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: #232530;
     --deprecated-text-input-prefix: #f8f8f2;
+    --modal-background: #1e1f29;
+    --modal-footer-background: #1e1f29;
 }
 
 .circleIconButton-1QV--U {
@@ -160,4 +163,8 @@
 /*Nitro button in main page*/
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(4) {
 	display: none;
+}
+/*Create new server buttons*/
+.contents-3ca1mk {
+    color: var(--text-normal);
 }
