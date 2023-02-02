@@ -38,9 +38,9 @@
     --background-floating: #1e1f29;
     --background-mobile-primary: #1e1f29;
     --background-mobile-secondary: #232530;
-    --background-modifier-hover: rgba(79,84,92,0.16);
-    --background-modifier-active: rgba(79,84,92,0.24);
-    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-hover: rgb(43 45 59 / 39%);
+    --background-modifier-active: rgba(43, 45, 59, 0.493);
+    --background-modifier-selected: rgba(43, 45, 59, 0.5);
     --background-modifier-accent: hsla(0,0%,100%,0.06);
     --info-positive-text: #fff;
     --info-warning-text: #fff;
