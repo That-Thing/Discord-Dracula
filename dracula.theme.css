@@ -72,7 +72,7 @@
     --channeltextarea-background: #2b2d3b;
     --activity-card-background: #232530;
     --textbox-markdown-syntax: #8e9297;
-    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-bg: rgb(35 37 48 / 50%);
     --deprecated-card-editable-bg: rgba(32,34,37,0.3);
     --deprecated-store-bg: #1e1f29;
     --deprecated-quickswitcher-input-background: #C8C8C8;
@@ -84,6 +84,9 @@
     --deprecated-text-input-prefix: #f8f8f2;
     --modal-background: #1e1f29;
     --modal-footer-background: #1e1f29;
+    --button-secondary-background: #1e1f29;
+    --button-secondary-background-hover: #1e1f298c;
+    --button-secondary-background-active: #181821;
 }
 
 .circleIconButton-1QV--U {
