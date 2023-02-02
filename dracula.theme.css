@@ -2,8 +2,8 @@
 * @name Dracula
 * @author Sen#0009
 * @description A basic dracula theme
-* @version 2.5
-* @source https://github.com/That-Thing/discordCSS
+* @version 3
+* @source https://github.com/That-Thing/Discord-Dracula
 * @website https://sen.cat/
 * @authorLink https://github.com/That-Thing
 */
@@ -25,16 +25,16 @@
     --interactive-normal: #b9bbbe;
     --interactive-hover: #f8f8f2;
     --interactive-active: #fff;
-    --interactive-muted: #4f545c;
+    --interactive-muted: #2b2d3b;
     --background-primary: #1e1f29;
     --background-secondary: #232530;
     --background-secondary-alt: #1e1f29;
 	--primary-dark-600: #232530;
 	--primary-dark-630: #1e1f29;
 	--primary-dark-700: #1e1f29;
-	--primary-dark-800: #1e1f29;	
+	--primary-dark-800: #1e1f29;
     --background-tertiary: #1e1f29;
-    --background-accent: #4f545c;
+    --background-accent: #2b2d3b;
     --background-floating: #1e1f29;
     --background-mobile-primary: #1e1f29;
     --background-mobile-secondary: #232530;
@@ -49,12 +49,13 @@
     --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
     --info-help-text: #fff;
     --status-warning-text: #000;
+    --scrollbar-auto-track: #2b2d3b!important;
     --scrollbar-thin-thumb: #232530;
-    --scrollbar-thin-track: transparent;
+    --scrollbar-thin-track: #2b2d3b;
     --scrollbar-auto-thumb: #232530;
     --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
     --scrollbar-auto-scrollbar-color-thumb: #232530;
-    --scrollbar-auto-scrollbar-color-track: #232530;
+    --scrollbar-auto-scrollbar-color-track: #2b2d3b;
     --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
@@ -135,10 +136,6 @@
 }
 /*Explore servers*/
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > ul > div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div:nth-child(5) {
-    display: none;
-}
-/*Use apps*/
-#channel-attach-SLASH_COMMAND {
     display: none;
 }
 /*Make avatar icons into squares*/
