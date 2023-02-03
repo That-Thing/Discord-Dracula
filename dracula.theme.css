@@ -1,93 +1,93 @@
-/**
-* @name Dracula
-* @author Sen#0009
-* @description A basic dracula theme
-* @version 3
-* @source https://github.com/That-Thing/Discord-Dracula
-* @website https://sen.cat/
-* @authorLink https://github.com/That-Thing
-*/
-:root, .theme-dark, .theme-light {
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #f8f8f2;
-    --text-muted: #C8C8C8;
-    --input-background: #2b2d3b;
-    /*--text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);*/
-    --text-link: #ff79c6;
-    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
-    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
-    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
-    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
-    --text-brand: #ff79c6;
-    --brand-experiment: #ff79c6;
-    --brand-experiment-560: #ff5eb9;
-    --brand-experiment-600: #ff4ab1;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #f8f8f2;
-    --interactive-active: #fff;
-    --interactive-muted: #2b2d3b;
-    --background-primary: #1e1f29;
-    --background-secondary: #232530;
-    --background-secondary-alt: #1e1f29;
-	--primary-dark-600: #232530;
-	--primary-dark-630: #1e1f29;
-	--primary-dark-700: #1e1f29;
-	--primary-dark-800: #1e1f29;
-    --background-tertiary: #1e1f29;
-    --background-accent: #2b2d3b;
-    --background-floating: #1e1f29;
-    --background-mobile-primary: #1e1f29;
-    --background-mobile-secondary: #232530;
-    --background-modifier-hover: rgb(43 45 59 / 39%);
-    --background-modifier-active: rgba(43, 45, 59, 0.493);
-    --background-modifier-selected: rgba(43, 45, 59, 0.5);
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
-    --info-positive-text: #fff;
-    --info-warning-text: #fff;
-    --info-danger-text: #fff;
-    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
-    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
-    --info-help-text: #fff;
-    --status-warning-text: #000;
-    --scrollbar-auto-track: #2b2d3b!important;
-    --scrollbar-thin-thumb: #232530;
-    --scrollbar-thin-track: #2b2d3b;
-    --scrollbar-auto-thumb: #232530;
-    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
-    --scrollbar-auto-scrollbar-color-thumb: #232530;
-    --scrollbar-auto-scrollbar-color-track: #2b2d3b;
-    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
-    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-    --logo-primary: #fff;
-    --control-brand-foreground: #ff79c6;
-    --control-brand-foreground-new: #ff79c6;
-    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
-    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
-    --background-message-hover: rgba(4,4,5,0.07);
-    --channels-default: #8e9297;
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    --channeltextarea-background: #2b2d3b;
-    --activity-card-background: #232530;
-    --textbox-markdown-syntax: #8e9297;
-    --deprecated-card-bg: rgb(35 37 48 / 50%);
-    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
-    --deprecated-store-bg: #1e1f29;
-    --deprecated-quickswitcher-input-background: #C8C8C8;
-    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-    --deprecated-text-input-bg: rgba(0,0,0,0.1);
-    --deprecated-text-input-border: rgba(0,0,0,0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #232530;
-    --deprecated-text-input-prefix: #f8f8f2;
-    --modal-background: #1e1f29;
-    --modal-footer-background: #1e1f29;
-    --button-secondary-background: #1e1f29;
-    --button-secondary-background-hover: #1e1f298c;
-    --button-secondary-background-active: #181821;
-}
+    /**
+    * @name Dracula
+    * @author Sen#0009
+    * @description A basic dracula theme
+    * @version 3
+    * @source https://github.com/That-Thing/Discord-Dracula
+    * @website https://sen.cat/
+    * @authorLink https://github.com/That-Thing
+    */
+    :root, .theme-dark, .theme-light {
+        --header-primary: #fff;
+        --header-secondary: #b9bbbe;
+        --text-normal: #f8f8f2;
+        --text-muted: #C8C8C8;
+        --input-background: #2b2d3b;
+        /*--text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);*/
+        --text-link: #ff79c6;
+        --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
+        --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
+        --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+        --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+        --text-brand: #ff79c6;
+        --brand-experiment: #ff79c6;
+        --brand-experiment-560: #ff5eb9;
+        --brand-experiment-600: #ff4ab1;
+        --interactive-normal: #b9bbbe;
+        --interactive-hover: #f8f8f2;
+        --interactive-active: #fff;
+        --interactive-muted: #404358;
+        --background-primary: #1e1f29;
+        --background-secondary: #232530;
+        --background-secondary-alt: #1e1f29;
+        --primary-dark-600: #232530;
+        --primary-dark-630: #1e1f29;
+        --primary-dark-700: #1e1f29;
+        --primary-dark-800: #1e1f29;
+        --background-tertiary: #1e1f29;
+        --background-accent: #2b2d3b;
+        --background-floating: #1e1f29;
+        --background-mobile-primary: #1e1f29;
+        --background-mobile-secondary: #232530;
+        --background-modifier-hover: rgb(43 45 59 / 39%);
+        --background-modifier-active: rgba(43, 45, 59, 0.493);
+        --background-modifier-selected: rgba(43, 45, 59, 0.5);
+        --background-modifier-accent: hsla(0,0%,100%,0.06);
+        --info-positive-text: #fff;
+        --info-warning-text: #fff;
+        --info-danger-text: #fff;
+        --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+        --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+        --info-help-text: #fff;
+        --status-warning-text: #000;
+        --scrollbar-auto-track: #2b2d3b!important;
+        --scrollbar-thin-thumb: #232530;
+        --scrollbar-thin-track: #2b2d3b;
+        --scrollbar-auto-thumb: #232530;
+        --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+        --scrollbar-auto-scrollbar-color-thumb: #232530;
+        --scrollbar-auto-scrollbar-color-track: #2b2d3b;
+        --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+        --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+        --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+        --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+        --logo-primary: #fff;
+        --control-brand-foreground: #ff79c6;
+        --control-brand-foreground-new: #ff79c6;
+        --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+        --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+        --background-message-hover: rgba(4,4,5,0.07);
+        --channels-default: #8e9297;
+        --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+        --channeltextarea-background: #2b2d3b;
+        --activity-card-background: #232530;
+        --textbox-markdown-syntax: #8e9297;
+        --deprecated-card-bg: rgb(35 37 48 / 50%);
+        --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+        --deprecated-store-bg: #1e1f29;
+        --deprecated-quickswitcher-input-background: #C8C8C8;
+        --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+        --deprecated-text-input-bg: rgba(0,0,0,0.1);
+        --deprecated-text-input-border: rgba(0,0,0,0.3);
+        --deprecated-text-input-border-hover: #040405;
+        --deprecated-text-input-border-disabled: #232530;
+        --deprecated-text-input-prefix: #f8f8f2;
+        --modal-background: #1e1f29;
+        --modal-footer-background: #1e1f29;
+        --button-secondary-background: #1e1f29;
+        --button-secondary-background-hover: #1e1f298c;
+        --button-secondary-background-active: #181821;
+    }
 
 .circleIconButton-1QV--U {
     color: var(--text-link);
@@ -139,10 +139,10 @@
 }
 /*Help Button*/
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a,
- #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.wrapper-1gVUIN.normal-qRirv5.video-3n15R6 > div.callContainer-HtHELf.theme-dark > div > div.videoControls-353CsJ > div.topControls-23RE3h.controlSection-1mNixL > div > div.headerWrapper-1ULEPv > section > div.toolbar-3_r2xA > a,
-  #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > main > section > div.toolbar-3_r2xA > a,
-  #app-mount > div.appAsidePanelWrapper-ev4hlp > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a {
-	display: none;
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.wrapper-1gVUIN.normal-qRirv5.video-3n15R6 > div.callContainer-HtHELf.theme-dark > div > div.videoControls-353CsJ > div.topControls-23RE3h.controlSection-1mNixL > div > div.headerWrapper-1ULEPv > section > div.toolbar-3_r2xA > a,
+#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > main > section > div.toolbar-3_r2xA > a,
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a {
+    display: none;
 }
 /*Explore servers*/
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > ul > div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div:nth-child(5),
@@ -151,28 +151,32 @@
 }
 /*Make avatar icons into squares*/
 .avatar-2e8lTP {
-	border-radius: 0px;
+    border-radius: 0px;
 }
 /*Text box border radius*/
 .scrollableContainer-15eg7h {
-	border-radius: 0px;
+    border-radius: 0px;
 }
 /*Video call buttons*/
 .colorable-3rVGna.primaryDark-2UJt1G {
-	background: #232530;
+    background: #232530;
 }
 .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
-	background: #1e1f29;
+    background: #1e1f29;
 }
 /*Library button*/
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(3) {
-	display: none;
+    display: none;
 }
 /*Nitro button in main page*/
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(4) {
-	display: none;
+    display: none;
 }
 /*Create new server buttons*/
 .contents-3ca1mk {
     color: var(--text-normal);
+}
+/*Muted channels*/
+.modeMuted-2T4MDZ .icon-2W8DHg, .modeMuted-2T4MDZ .name-28HaxV {
+    color: #8e929757;
 }
