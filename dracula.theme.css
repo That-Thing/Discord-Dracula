@@ -180,3 +180,10 @@
 .modeMuted-2T4MDZ .icon-2W8DHg, .modeMuted-2T4MDZ .name-28HaxV {
     color: #8e929757;
 }
+/*Browse channels*/
+.theme-dark .container-1um7CU {
+    background-color: var(--background-primary);
+}
+.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
+    background-color: var(--background-primary);
+}
