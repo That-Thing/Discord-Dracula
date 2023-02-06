@@ -187,3 +187,7 @@
 .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
     background-color: var(--background-primary);
 }
+/*"Disocrd" in title bar*/
+.typeWindows-2-g3UY > .wordmark-2u86JB {
+    display: none;
+}
