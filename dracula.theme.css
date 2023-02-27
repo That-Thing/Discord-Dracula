@@ -31,6 +31,7 @@
         --background-secondary: #232530;
         --background-secondary-alt: #1e1f29;
         --primary-dark-600: #232530;
+        --primary-660: #232530;
         --primary-dark-630: #1e1f29;
         --primary-dark-700: #1e1f29;
         --primary-dark-800: #1e1f29;
@@ -191,4 +192,8 @@
 /*"Disocrd" in title bar*/
 .typeWindows-2-g3UY > .wordmark-2u86JB {
     display: none;
+}
+/*Remove fade from search bar dropdown options*/
+.option-ayUoaq:after, .option-ayUoaq:hover:after {
+    background: none;
 }
