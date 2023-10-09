@@ -1,6 +1,6 @@
     /**
     * @name Dracula
-    * @author Sen#0009
+    * @author sen.
     * @description A basic dracula theme
     * @version 3
     * @source https://github.com/That-Thing/Discord-Dracula
@@ -133,7 +133,8 @@
 }
 /*Gift button*/
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.buttons-uaqb-5 > button,
-#app-mount > div.appAsidePanelWrapper-ev4hlp > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.buttons-uaqb-5 > button {
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.buttons-uaqb-5 > button,
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > div.container-3H3gr7 > div.chatContainer-2XIz4Y > main > form > div > div > div > div.buttons-uaqb-5 > button {
     display: none;
 }
 /*Sticker button*/
@@ -201,4 +202,8 @@
 /*Remove fade from search bar dropdown options*/
 .option-ayUoaq:after, .option-ayUoaq:hover:after {
     background: none;
+}
+/*Remove rounded corners for attached images*/
+.mediaAttachmentsContainer-1WGRWy {
+    border-radius: 0px;
 }
