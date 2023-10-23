@@ -132,7 +132,7 @@
     background-color: var(--background-secondary)!important;
 }
 /*Gift button*/
-#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-9g_3Xj > div.content-18rAwf > div.container-3H3gr7 > div.chatContainer-2XIz4Y > main > form > div > div > div > div.buttons-uaqb-5 > button {
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div.content-1SgpWY > div.chat-9g_3Xj > div.content-18rAwf > div.container-3H3gr7 > div.chatContainer-2XIz4Y > main > form > div > div > div > div.buttons-uaqb-5 > button{
     display: none;
 }
 /*Sticker button*/
@@ -143,7 +143,8 @@
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a,
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.wrapper-1gVUIN.normal-qRirv5.video-3n15R6 > div.callContainer-HtHELf.theme-dark > div > div.videoControls-353CsJ > div.topControls-23RE3h.controlSection-1mNixL > div > div.headerWrapper-1ULEPv > section > div.toolbar-3_r2xA > a,
 #app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > main > section > div.toolbar-3_r2xA > a,
-#app-mount > div.appAsidePanelWrapper-ev4hlp > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a {
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > section > div.toolbar-3_r2xA > a,
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div.content-1SgpWY > div.chat-9g_3Xj > section > div > div.toolbar-3_r2xA > a {
     display: none;
 }
 /*Explore servers*/
@@ -167,15 +168,15 @@
     background: #1e1f29;
 }
 /*Library button*/
-#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(3) {
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div.content-1SgpWY > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(3){
     display: none;
 }
 /*Nitro button in main page*/
-#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(4) {
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div.content-1SgpWY > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-RnSY0a.scrollerBase-1Pkza4.fade-27X6bG > ul > li:nth-child(4) {
     display: none;
 }
 /*Explore public servers*/
-#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > nav > ul > div.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 > div:nth-child(5) {
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > nav > ul > div.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 > div:nth-child(5) {
     display: none;
 }
 /*Create new server buttons*/
