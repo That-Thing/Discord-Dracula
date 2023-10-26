@@ -2,7 +2,7 @@
     * @name Dracula
     * @author sen.
     * @description A basic dracula theme
-    * @version 3.1
+    * @version 3
     * @source https://github.com/That-Thing/Discord-Dracula
     * @website https://sen.cat/
     * @authorLink https://github.com/That-Thing
@@ -33,6 +33,7 @@
         --primary-dark-600: #232530;
         --primary-600: #232530;
         --primary-660: #232530;
+        --primary-630: #232530;
         --primary-dark-630: #1e1f29;
         --primary-dark-700: #1e1f29;
         --primary-dark-800: #1e1f29;
