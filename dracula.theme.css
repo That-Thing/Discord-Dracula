@@ -208,3 +208,11 @@
 .mediaAttachmentsContainer-1WGRWy {
     border-radius: 0px;
 }
+/*"Channels & Roles" page background*/
+.scrollerContainer_bf5dbd, .emptyPage__3e15d {
+    background-color: var(--background-secondary);
+}
+/*"Channels & Roles" page header background*/
+.container__10dc7, .header__60bef {
+    background-color: var(--background-secondary);
+}
