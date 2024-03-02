@@ -133,11 +133,11 @@
     background-color: var(--background-secondary)!important;
 }
 /*Gift button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > button {
+#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__1a4fe > main > form > div.channelTextArea__2e60f.channelTextArea__56a36 > div > div > div.buttons_ce5b56 > button {
     display: none;
 }
 /*Sticker button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > div:nth-child(3) {
+#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__1a4fe > main > form > div.channelTextArea__2e60f.channelTextArea__56a36 > div > div > div.buttons_ce5b56 > div:nth-child(3) {
     display: none;
 }
 /*Help Button*/
