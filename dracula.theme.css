@@ -133,15 +133,15 @@
     background-color: var(--background-secondary)!important;
 }
 /*Gift button*/
-#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__1a4fe > main > form > div.channelTextArea__2e60f.channelTextArea__56a36 > div > div > div.buttons_ce5b56 > button {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > button {
     display: none;
 }
 /*Sticker button*/
-#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__1a4fe > main > form > div.channelTextArea__2e60f.channelTextArea__56a36 > div > div > div.buttons_ce5b56 > div:nth-child(3) {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > div:nth-child(3) {
     display: none;
 }
 /*Help Button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > section > div > div.toolbar__62fb5 > a {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.subtitleContainer_f50402 > section > div > div.toolbar__62fb5 > a, #app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > main > section > div > div.toolbar__62fb5 > a {
     display: none;
 }
 /*Explore servers*/
@@ -169,11 +169,11 @@
     display: none;
 }
 /*Nitro button in main page*/
-#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > nav > div.scroller__4b984.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0 > ul > li:nth-child(4) {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li:nth-child(3) {
     display: none;
 }
 /*Shop button*/
-#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > nav > div.scroller__4b984.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0 > ul > li:nth-child(5){
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li.channel__0aef5.shyButton__30111.container__3792d{
     display: none;
 }
 /*Explore public servers*/
