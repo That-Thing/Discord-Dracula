@@ -91,6 +91,10 @@
         --button-secondary-background: #1e1f29;
         --button-secondary-background-hover: #1e1f298c;
         --button-secondary-background-active: #181821;
+		--bg-mod-faint: var(--background-secondary);
+		--bg-surface-overlay: var(--background-primary);
+		--profile-gradient-overlay-color: var(--background-primary);
+		
     }
 
 .circleIconButton-1QV--U {
@@ -133,11 +137,11 @@
     background-color: var(--background-secondary)!important;
 }
 /*Gift button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > button {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div > div.buttons__7ecff > button {
     display: none;
 }
 /*Sticker button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > div:nth-child(3) {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div > div.buttons__7ecff > div:nth-child(3) {
     display: none;
 }
 /*Help Button*/
@@ -165,15 +169,15 @@
     background: #1e1f29;
 }
 /*Library button*/
-#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_ded4b5 > nav > div.scroller__4b984.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0 > ul > li:nth-child(3) > div{
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li:nth-child(3) {
     display: none;
 }
 /*Nitro button in main page*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li:nth-child(3) {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li:nth-child(4) {
     display: none;
 }
 /*Shop button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li.channel__0aef5.shyButton__30111.container__3792d{
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li:nth-child(5) {
     display: none;
 }
 /*Explore public servers*/
@@ -206,4 +210,9 @@
 /*Remove rounded corners for attached images*/
 .mediaAttachmentsContainer-1WGRWy {
     border-radius: 0px;
+}
+/*Mod view*/
+.container__532be, .bottomRowAction_b95fd7, .header_aacd9b, .topRow_b0479e {
+	background-color: var(--background-tertiary)!important;
+	
 }
